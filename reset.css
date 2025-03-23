@@ -1,0 +1,40 @@
+/* Reset CSS */
+
+/* Resetar margens, preenchimentos e bordas */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Resetar fontes e tamanhos */
+html, body {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Resetar listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Resetar links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Resetar elementos de formulário */
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Resetar imagens */
+img {
+  max-width: 100%;
+  display: block;
+}

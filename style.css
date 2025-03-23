@@ -1,0 +1,238 @@
+*{
+    background-color: transparent;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: inherit;
+}
+
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+}
+
+.container__topside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+.container__topside,
+.container__bottomside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 70px; 
+}
+
+.children__topside,
+.children__bottomside {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.children__topside img{
+   margin-top: 100px;
+    width: 100px;
+    margin-bottom: 40px
+}
+
+.button__topside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.button__ios, .button__mac{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding: 0 20px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.button__ios{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 0px 10px 0px #26bba4;
+}
+
+.button__mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 0px 10px 0px #6c63ff;
+}
+
+.container__main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.children__main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.left img{
+    max-width: 100%;
+    height: auto;
+}
+
+.right{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.right > h2, .right > p{
+    margin-bottom: 20px;
+}
+
+.container__bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.children__bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.topside__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;	
+}
+
+.bottomside__icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bottomside__icons img {
+    background-color: transparent;
+    margin: 0 50px; /* Espaçamento horizontal entre os ícones */
+}
+
+.container__footer {
+    background-color: #f5f6f8;
+    padding: 50px 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo__footer img {
+    width: 60px;
+}
+
+.links__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links__footer a {
+    color: #4c545d;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.links__footer a:hover {
+    color: #26baa4;
+}
+
+.social__footer {
+    display: flex;
+    gap: 24px;
+}
+
+.social__footer img {
+    width: 30px;
+    height: 30px;
+ 
+}
+.logo__footer{
+    width: 50px;
+    height: 50px;
+}
